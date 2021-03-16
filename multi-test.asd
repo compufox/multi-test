@@ -1,9 +1,9 @@
 ;;;; multi-test.asd
 
 (asdf:defsystem #:multi-test
-  :description "Describe multi-test here"
-  :author "Your Name <your.name@example.com>"
-  :license  "Specify license here"
+  :description "trivial-gamekit multiplayer experiment"
+  :author "ava fox"
+  :license  "GPLv3"
   :version "0.0.1"
   :serial t
   :depends-on (#:trivial-gamekit #:trivial-gamekit-colors #:trivial-gamekit-ui #:usocket #:bordeaux-threads #:babel)
